@@ -18,3 +18,12 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   README.md
         new file:   backend/package-lock.json
         modified:   backend/package.json
+
+### 02.3.3 - Creating environment variable (.env)
+
+        > npm install --save dotenv
+        modified:   README.md
+        new file:   backend/.env
+        modified:   backend/package-lock.json
+        modified:   backend/package.json
+        new file:   backend/src/index.server.js
