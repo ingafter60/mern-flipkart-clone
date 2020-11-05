@@ -2,11 +2,13 @@
 const express = require('express')
 const env = require('dotenv')
 const app = express()
+const bodyParser = require('body-parser')
 
 // environment variable or constants
 env.config()
 
-app.use(express.json())
+// app.use(express.json())
+app.use(bodyParser())
 
 app.get('/', (req, res, next) => {
   res.status(200).json({

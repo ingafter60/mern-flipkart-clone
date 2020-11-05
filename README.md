@@ -40,3 +40,9 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   backend/package-lock.json
         modified:   backend/package.json
         modified:   backend/src/index.server.js
+
+### 02.6.6 - Install library body-parser to display json
+
+        > npm install --save body-parser
+        modified:   backend/src/index.server.js
+        new file:   package-lock.json
