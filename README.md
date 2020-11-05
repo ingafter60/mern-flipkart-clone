@@ -27,3 +27,8 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   backend/package-lock.json
         modified:   backend/package.json
         new file:   backend/src/index.server.js
+
+### 02.4.4 - Creating Hello World from api server
+
+        modified:   README.md
+        modified:   backend/src/index.server.js
