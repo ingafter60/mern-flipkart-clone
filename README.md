@@ -32,3 +32,11 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
 
         modified:   README.md
         modified:   backend/src/index.server.js
+
+### 02.5.5 - Post request with json and install nodemone
+
+        > npm install nodemon
+        modified:   README.md
+        modified:   backend/package-lock.json
+        modified:   backend/package.json
+        modified:   backend/src/index.server.js

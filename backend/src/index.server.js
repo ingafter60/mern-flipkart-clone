@@ -6,9 +6,17 @@ const app = express()
 // environment variable or constants
 env.config()
 
+app.use(express.json())
+
 app.get('/', (req, res, next) => {
   res.status(200).json({
     message: 'Hello world from api server ...',
+  })
+})
+
+app.post('/data', (req, res, next) => {
+  res.status(200).json({
+    message: req.body,
   })
 })
 
