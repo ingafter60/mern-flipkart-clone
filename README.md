@@ -88,3 +88,9 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   backend/src/index.server.js
         modified:   backend/src/models/user_model.js
         modified:   backend/src/routes/user_route.js
+
+### 02.13.13 - Creating User controller and use it with the user_route
+
+        modified:   README.md
+        new file:   backend/src/controller/user_controller.js
+        modified:   backend/src/routes/user_route.js
