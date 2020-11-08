@@ -55,3 +55,9 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   README.md
         modified:   backend/.env
         modified:   backend/src/index.server.js
+
+### 02.8.9 - Creating routes to use MVC Pattern
+
+        modified:   README.md
+        modified:   backend/src/index.server.js
+        new file:   backend/src/routes/user_route.js

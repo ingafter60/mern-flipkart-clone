@@ -5,6 +5,8 @@ const app = express()
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
+//routes
+const userRoutes = require('./routes/user_route')
 
 // environment variable or constants
 env.config()
@@ -24,18 +26,6 @@ mongoose.connect(
 
 // app.use(express.json())
 app.use(bodyParser())
-
-app.get('/', (req, res, next) => {
-  res.status(200).json({
-    message: 'Hello world from api server ...',
-  })
-})
-
-app.post('/data', (req, res, next) => {
-  res.status(200).json({
-    message: req.body,
-  })
-})
 
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on port ${process.env.PORT}`)
