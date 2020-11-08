@@ -80,3 +80,11 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   backend/package-lock.json
         modified:   backend/package.json
         modified:   backend/src/models/user_model.js
+
+
+### 02.12.12 - Importing User model to routes
+
+        modified:   README.md
+        modified:   backend/src/index.server.js
+        modified:   backend/src/models/user_model.js
+        modified:   backend/src/routes/user_route.js

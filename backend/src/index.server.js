@@ -16,7 +16,8 @@ mongoose.connect(
 	`mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.yatl8.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`, 
 	{
 		useNewUrlParser: true, 
-		useUnifiedTopology: true
+		useUnifiedTopology: true,
+		useCreateIndex: true
 	}
 ).then(() => {
 	console.log('Mongodb connected!')
