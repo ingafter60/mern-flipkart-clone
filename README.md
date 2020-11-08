@@ -46,3 +46,12 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         > npm install --save body-parser
         modified:   backend/src/index.server.js
         new file:   package-lock.json
+
+### 02.7.7 - Creating database using mongoDB
+
+        https://cloud.mongodb.com/v2/5fa364ac5d94ed04a419fbc5#clusters/connect?clusterId=Cluster0
+        https://mongoosejs.com/
+        modified:   .gitignore
+        modified:   README.md
+        modified:   backend/.env
+        modified:   backend/src/index.server.js
