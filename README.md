@@ -67,3 +67,7 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   README.md
         modified:   backend/src/index.server.js
 
+### 02.10.10 - Creaing User model
+
+        modified:   README.md
+        new file:   backend/src/models/user_model.js
