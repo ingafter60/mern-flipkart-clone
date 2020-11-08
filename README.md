@@ -71,3 +71,12 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
 
         modified:   README.md
         new file:   backend/src/models/user_model.js
+
+### 02.11.11 - Adding user schema dot virtual
+
+        > install bcrypt: λ npm install --save bcrypt
+        > sourse: npmjs.com/package/bcrypt
+        modified:   README.md
+        modified:   backend/package-lock.json
+        modified:   backend/package.json
+        modified:   backend/src/models/user_model.js
