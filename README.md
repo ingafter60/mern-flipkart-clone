@@ -61,3 +61,9 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   README.md
         modified:   backend/src/index.server.js
         new file:   backend/src/routes/user_route.js
+
+### 02.9.9 - Adding Middleware
+
+        modified:   README.md
+        modified:   backend/src/index.server.js
+

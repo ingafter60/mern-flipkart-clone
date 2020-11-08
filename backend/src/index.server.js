@@ -5,14 +5,13 @@ const app = express()
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
-//routes
+// import routes
 const userRoutes = require('./routes/user_route')
 
 // environment variable or constants
 env.config()
 
 // mongodb connection
-
 mongoose.connect(
 	`mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.yatl8.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`, 
 	{
@@ -23,6 +22,11 @@ mongoose.connect(
 	console.log('Mongodb connected!')
 });
 
+// middleware
+app.use(bodyParser())
+
+// use the route
+app.use('/api', userRoutes)
 
 // app.use(express.json())
 app.use(bodyParser())
