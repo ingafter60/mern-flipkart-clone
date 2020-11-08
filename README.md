@@ -94,3 +94,8 @@ https://www.youtube.com/watch?v=kXfRQ0NiyLI&list=PLB_Wd4-5SGAYsxD4JGaVdXll3PnoyI
         modified:   README.md
         new file:   backend/src/controller/user_controller.js
         modified:   backend/src/routes/user_route.js
+
+### 02.14.14 - Create github repository
+
+        > https://github.com/ingafter60/mern-flipkart-clone  
+        modified:   README.md
